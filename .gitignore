@@ -1,0 +1,18 @@
+# Ignore ChromeDriver executable
+chromedriver
+
+# Ignore CSV files (scraped data)
+*.csv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore virtual environment folder
+venv/
