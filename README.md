@@ -1,6 +1,3 @@
-Here is the updated `README.md` file, including a note about changing the CSV file path:
-
-```markdown
 # Strand Book Shop Scraper
 
 This Python project is designed to scrape book details from the Strand Book Shop website. The scraper can extract details of a particular book or scrape an entire section of books by genre. The data includes the book's title, author, and price, and can be saved to a CSV file.
