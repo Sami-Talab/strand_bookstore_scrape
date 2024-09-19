@@ -89,10 +89,6 @@ python strand_bookstore_scrape.py
 - **Headless Chrome Setup:** Ensure ChromeDriver is properly installed and configured for the scraper to work.
 - **Dynamic Content:** The scraper waits for 5-10 seconds to ensure JavaScript-based content fully loads, but the timing may vary depending on internet speed.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [Selenium](https://www.selenium.dev/)
