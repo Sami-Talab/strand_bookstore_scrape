@@ -21,7 +21,7 @@ The website used is [Strand Book Shop](https://www.strandbooks.com), a well-know
 ### Prerequisites
 
 Before running the project, ensure you have the following installed:
-- Python 3.x
+- Python 3.10+
 - Chrome browser
 - Chromedriver (for Selenium)
 
@@ -30,8 +30,8 @@ Before running the project, ensure you have the following installed:
 1. **Clone the repository:**
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone https://github.com/Sami-Talab/strand_bookstore_scrape.git
+cd strand_bookstore_scrape
 ```
 
 2. **Install dependencies:**
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 You can now run the scraper using the following command:
 
 ```bash
-python <your-script-name>.py
+python strand_bookstore_scrape.py
 ```
 
 ### Usage
@@ -78,7 +78,7 @@ Here’s how to scrape the *Art* section of the website:
 2. Run the script: 
 
 ```bash
-python <your-script-name>.py
+python strand_bookstore_scrape.py
 ```
 
 3. Choose the option to scrape a genre, then select the corresponding number for "Art" when prompted.
@@ -98,4 +98,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Selenium](https://www.selenium.dev/)
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 - [Google Books API](https://developers.google.com/books)
-```
+
